@@ -40,7 +40,8 @@ namespace Quarry {
 
 		private void ProcessBoolGrid() {
 			foreach (IntVec3 c in map.AllCells) {
-				boolGrid.Set(c, QuarryUtility.IsValidQuarryTerrain(map.terrainGrid.TerrainAt(c)));
+                // Include fog of war check for those saying the green tiles were a "cheat" when in non visible world.
+                boolGrid.Set(c, QuarryUtility.IsValidQuarryTerrain(map.terrainGrid.TerrainAt(c)) && !map.fogGrid.IsFogged(c));
 			}
 			Drawer.SetDirty();
 		}
