@@ -22,6 +22,7 @@
   <QRY_LabelHaulMode>運搬モード</QRY_LabelHaulMode>
   <QRY_Haul>掘リ出したアイテムを運搬します。</QRY_Haul>
   <QRY_NotHaul>掘り出したアイテムを無視します。</QRY_NotHaul>
+  <QRY_RockTypesAvailable>採石可能な石の種類</QRY_RockTypesAvailable>
 
   <QRY_LabelMineResources>資源採掘する</QRY_LabelMineResources>
   <QRY_DescriptionMineResources>資源採掘する採石場を指定します。クリックすると掘削する資源の種類が切り替わります。</QRY_DescriptionMineResources>
