@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation  Class="PatchOperationFindMod">
+		<mods>
+			<li>Biotech</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="Human"]/race/lifeStageWorkSettings</xpath>
+			<value>
+				<QuarryMining>7</QuarryMining>
+			</value>
+		</match>
+	</Operation>
+</Patch>
