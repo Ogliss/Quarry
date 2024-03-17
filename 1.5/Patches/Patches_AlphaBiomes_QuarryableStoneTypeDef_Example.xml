@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Alpha Biomes</li>
+	</mods>
+	<match Class="PatchOperationAdd">
+		<xpath>Defs</xpath>
+		<value>
+			<Quarry.QuarryableStoneDef>
+				<defName>GU_RoseQuartz_Override</defName>
+				<rockDef>GU_RoseQuartz</rockDef> <!-- most important -->
+				<chunkDef>GU_ChunkRoseQuartz</chunkDef> <!-- will be worked out from the rockDef if left blank -->
+				<blockDef>GU_BlocksRoseQuartz</blockDef> <!-- will be worked out from the rockDef if left blank -->
+				<terrainDefs> <!-- any terrainDefs you want to yield the above when under a quarry -->
+					<!--li>GU_RedQuartzBase</li-->
+					<li>GU_MossyRed</li>
+				</terrainDefs>
+			</Quarry.QuarryableStoneDef>
+		</value>
+	</match>
+</Operation>
+
+
+</Patch>
