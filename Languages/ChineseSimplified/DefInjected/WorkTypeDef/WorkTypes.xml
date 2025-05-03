@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <QuarryMining.labelShort>开采</QuarryMining.labelShort>
+  <QuarryMining.pawnLabel>矿工</QuarryMining.pawnLabel>
+  <QuarryMining.gerundLabel>开采中</QuarryMining.gerundLabel>
+  <QuarryMining.description>在采石场开采资源。</QuarryMining.description>
+  <QuarryMining.verb>开采</QuarryMining.verb>
+
+</LanguageData>
