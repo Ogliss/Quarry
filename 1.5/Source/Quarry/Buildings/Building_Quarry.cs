@@ -790,7 +790,9 @@ namespace Quarry
                     if (!report.Contains(rockType.rockDef.LabelCap))
                     {
                         report.Add(rockType.rockDef.LabelCap);
-                        stringBuilder.AppendLine("     " + rockType.rockDef.LabelCap + (rockType.chunkDef != null ? ": chunks" : "") + (rockType.blockDef != null ? ((rockType.chunkDef != null ? ", " : ": ") + "blocks") : ""));
+                        stringBuilder.AppendLine("     " + rockType.rockDef.LabelCap + 
+                                                 (rockType.chunkDef != null ? ": " + rockType.chunkDef.label : "") + 
+                                                 (rockType.blockDef != null ? ((rockType.chunkDef != null ? ", " : ": ") + rockType.blockDef.label) : ""));
                     }
                 }
                 stringBuilder.AppendLine();
