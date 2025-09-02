@@ -7,10 +7,16 @@
   <QRY_Quarry_Frame.label>采石场(建造中)</QRY_Quarry_Frame.label>
   <QRY_Quarry_Frame.description>一个用于长期挖掘填埋资源的大坑。</QRY_Quarry_Frame.description>
 
-  <QRY_MiniQuarry.label>迷你采石场</QRY_MiniQuarry.label>
+  <QRY_MediQuarry.label>中型采石场</QRY_MediQuarry.label>
+  <QRY_MediQuarry.description>一个用于长期挖掘填埋资源的坑。</QRY_MediQuarry.description>
+  <QRY_MediQuarry_Blueprint.label>中型采石场(蓝图)</QRY_MediQuarry_Blueprint.label>
+  <QRY_MediQuarry_Frame.label>中型采石场(建造中)</QRY_MediQuarry_Frame.label>
+  <QRY_MediQuarry_Frame.description>一个用于长期挖掘填埋资源的坑。</QRY_MediQuarry_Frame.description>
+
+  <QRY_MiniQuarry.label>小型采石场</QRY_MiniQuarry.label>
   <QRY_MiniQuarry.description>一个用于长期挖掘填埋资源的小坑。</QRY_MiniQuarry.description>
-  <QRY_MiniQuarry_Blueprint.label>迷你采石场(蓝图)</QRY_MiniQuarry_Blueprint.label>
-  <QRY_MiniQuarry_Frame.label>迷你采石场(建造中)</QRY_MiniQuarry_Frame.label>
+  <QRY_MiniQuarry_Blueprint.label>小型采石场(蓝图)</QRY_MiniQuarry_Blueprint.label>
+  <QRY_MiniQuarry_Frame.label>小型采石场(建造中)</QRY_MiniQuarry_Frame.label>
   <QRY_MiniQuarry_Frame.description>一个用于长期挖掘填埋资源的小坑。</QRY_MiniQuarry_Frame.description>
 
   <QRY_Platform.label>采石场平台</QRY_Platform.label>
